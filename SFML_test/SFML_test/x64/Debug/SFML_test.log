@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\thoughtworks-gameoflive\sfml_test\sfml_test\main.cpp(32): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\thoughtworks-gameoflive\sfml_test\sfml_test\main.cpp(139): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  SFML_test.vcxproj -> D:\thoughtworks-GameOfLive\SFML_test\x64\Debug\SFML_test.exe
