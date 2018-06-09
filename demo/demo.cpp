@@ -18,6 +18,9 @@ class GAMEOFLIVE
 void GAMEOFLIVE::init()
 {
 	srand(time(NULL));
+	for( int i = 0 ; i < maxn ; i++)
+		for( int j = 0 ; j < maxn ; j++)
+			graph[i][j] = DEAD  ;
 	for( int i = 1 ; i < maxn -1 ; i++)
 	{
 		for( int j = 1 ; j < maxn - 1 ; j++)
@@ -40,7 +43,7 @@ void GAMEOFLIVE::change()
 			if( t == 3 )
 				graph2[i][j] = ALIVE ;
 			else if( t == 2 )
-				;
+				graph2[i][j] = graph[i][j];
 			else 
 				graph2[i][j] = DEAD ;
 		}

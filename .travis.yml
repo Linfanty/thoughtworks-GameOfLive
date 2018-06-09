@@ -1,0 +1,7 @@
+sudo: true
+language: C++
+#before_install: 
+# - sudo pip install codecov
+script: 
+ - build_demo.sh
+
