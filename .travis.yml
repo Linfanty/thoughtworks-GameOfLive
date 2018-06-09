@@ -3,5 +3,5 @@ language: C++
 #before_install: 
 # - sudo pip install codecov
 script: 
- - build_demo.sh
+ - ./build_demo.sh
 
