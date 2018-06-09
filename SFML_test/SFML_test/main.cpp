@@ -120,7 +120,11 @@ int main()
 	//shape.setFillColor(sf::Color::Green);
 	
 	int n;
+	cout << "请输入规模(建议大于等于10)" << endl;
 	cin >> n; 
+	int tt;
+	cout << "请输入快慢(数字越小越快)" << endl; 
+	cin >> tt;
 	GAMEOFLIVE test(n);
 	sf::RenderWindow window(sf::VideoMode(500, 500), "GameOfLive");
 	//sf::CircleShape shape[n][n];
@@ -170,7 +174,7 @@ int main()
 			}
 		}
 		window.display();
-		Sleep(1000);
+		Sleep(tt);
 	}
 	return 0;
 }
